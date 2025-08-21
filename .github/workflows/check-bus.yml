@@ -8,6 +8,8 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    env:
+      SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
