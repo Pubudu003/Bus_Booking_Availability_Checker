@@ -23,7 +23,7 @@ def check_bus_availability():
 
     # Use the webdriver-manager to automatically handle the driver installation
     options = Options()
-    options.add_argument("--headless")
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     
