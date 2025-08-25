@@ -69,7 +69,8 @@ def send_email_notification():
 # --- Send an unavailability email
 def send_booking_unavailable_email():
     subject = "Bus Booking not available yet!"
-    body = f"Bus booking is yet not avalable for, from {FROM_LOCATION} to {TO_LOCATION} on {SEARCH_DATE}."
+    body = f"Bus booking is yet not avalable for, from {FROM_LOCATION} to {TO_LOCATION} on {SEARCH_DATE}.\n\n"
+            f"You can check at https://sltb.eseat.lk/search?type=1&from={FROM_LOCATION}&to={TO_LOCATION}&from_date={SEARCH_DATE}&to_date="
 
     message = f"Subject: {subject}\n\n{body}"
 
