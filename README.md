@@ -8,7 +8,7 @@ This project is a small system I built myself to make things easier. Building it
 ## 🔑 Features
 - Automates seat availability checking for a specific route/date.
 - Uses **Selenium** with Chrome (headless mode) to load the booking page.
-- Sends email alerts via **Gmail SMTP** when:
+- Sends email alerts hourly via **Gmail SMTP** when:
   - ✅ Seats are available.
   - ❌ Seats are not yet available.
 - Customizable route, date, and bus schedule ID.
