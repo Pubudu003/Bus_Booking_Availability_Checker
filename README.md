@@ -19,6 +19,10 @@ This project is a small system I built myself to make things easier. Building it
 - **smtplib** + **SSL** (for email notifications)
 - **Gmail SMTP server**
 
+## Update: The mechanism is updated
+
+The email now includes the availability of bus bookings along with the number of seats available.
+
 ## ⚙️ Setup & Usage
 
 ### 1. Clone the repository
