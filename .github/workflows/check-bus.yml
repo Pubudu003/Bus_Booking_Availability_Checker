@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install selenium webdriver-manager
+          pip install selenium webdriver-manager beautifulsoup4
 
       - name: Run Python script
         run: python bus_checker.py
