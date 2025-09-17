@@ -1,8 +1,8 @@
 name: Check Bus Availability
 
 on:
-  schedule:
-    - cron: '1 0,6,12,18 * * *' # Runs at the beginning of every hour
+ # schedule:
+ #   - cron: '1 0,6,12,18 * * *' # Runs at the beginning of every hour
   workflow_dispatch:
 
 jobs:
